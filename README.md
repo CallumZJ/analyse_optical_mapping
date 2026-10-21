@@ -11,3 +11,6 @@ Findfirst https://uk.mathworks.com/matlabcentral/fileexchange/2631-findfirst
 Natsort for files https://uk.mathworks.com/matlabcentral/fileexchange/47434-natural-order-filename-sort
 
 Additionally if high quality movie export is desired ffmpeg should be installed and on the path.
+
+
+Code generated primarily by Callum Zgierski-Johnston and Teo Puig Walz
