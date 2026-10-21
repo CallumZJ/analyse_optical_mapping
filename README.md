@@ -10,3 +10,4 @@ Altmany-export_fig https://github.com/altmany/export_fig
 Findfirst https://uk.mathworks.com/matlabcentral/fileexchange/2631-findfirst
 Natsort for files https://uk.mathworks.com/matlabcentral/fileexchange/47434-natural-order-filename-sort
 
+Additionally if high quality movie export is desired ffmpeg should be installed and on the path.
