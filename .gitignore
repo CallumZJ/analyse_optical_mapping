@@ -1,0 +1,82 @@
+# ---------------------------------------------------------------------
+# Part 1: master's MATLAB .gitignore, unchanged
+# ---------------------------------------------------------------------
+
+# Autosave files
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+
+# Derived content-obscured files
+*.p
+
+# Compiled MEX files
+*.mex*
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Deployable archives
+*.ctf
+
+# Generated helpsearch folders
+helpsearch*/
+
+# Code generation folders
+slprj/
+sccprj/
+codegen/
+
+# Cache files
+*.slxc
+
+# Cloud based storage dotfile
+.MATLABDriveTag
+
+# buildtool cache folder
+.buildtool/
+
+# SimBiology backup files
+*.sbproj.backup
+*.sbproj.bak
+
+# ---------------------------------------------------------------------
+# Part 2: the reconstruction tools and tests
+# ---------------------------------------------------------------------
+
+# Crash logs: the JVM writes hs_err_pid<N>.log into the folder MATLAB was
+# started in; any other log at the top of the repo is a stray too (the app's
+# own logs live inside each run folder, outside the repo)
+hs_err_pid*.log
+/*.log
+
+# Screenshots and exported pictures saved at the top of the repo while
+# checking the app (the app saves its own exports in the run folder)
+/*.png
+/*.jpg
+/*.jpeg
+/*.pdf
+
+# Git worktrees kept inside the working copy
+.worktrees/
+
+# Editor settings. A developer's own local files (notes, assistant
+# settings) go in that clone's .git/info/exclude, not here.
+.vscode/
+.idea/
+
+# Python caches (rabbit_pycamset_*.py and the Python tests)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Scratch MATLAB data at the top of the repo (no .mat file is tracked;
+# recordings and fixtures belong outside the repo or under tests/fixtures)
+/*.mat
+
+# Dataset folders made by the app (<stem>.matom holds tab state, runs and
+# exports); test data is copied in only for a local run, never committed
+*.matom/
