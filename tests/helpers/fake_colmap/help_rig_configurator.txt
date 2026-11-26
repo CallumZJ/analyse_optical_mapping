@@ -1,0 +1,17 @@
+  -h [ --help ] 
+  --project_path arg
+  --default_random_seed arg (=0)
+  --log_target arg (=stderr_and_file) {stderr, stdout, file, stderr_and_file}
+  --log_path arg
+  --log_level arg (=0)
+  --log_severity arg (=0)             0:INFO, 1:WARNING, 2:ERROR, 3:FATAL
+  --log_color arg (=1)
+  --database_path arg
+  --rig_config_path arg               Rig configuration as a .json file.
+  --input_path arg                    Optional input reconstruction to 
+                                      automatically derive the (average) rig 
+                                      and camera calibrations. If not provided,
+                                      the rig intrinsics and extrinsics must be
+                                      specified in the provided config.
+  --output_path arg                   Optional output reconstruction with 
+                                      configured rigs/frames.
